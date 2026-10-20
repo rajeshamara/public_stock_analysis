@@ -1,0 +1,36 @@
+{
+  "example_only": true,
+  "schema_version": "1.0",
+  "forecast_id": "F-EXAMPLE-20200102-1045-001",
+  "ticker": "EXAMPLE",
+  "expiration_timestamp_et": "2020-01-02T16:00:00-05:00",
+  "actual_close": null,
+  "actual_return_from_forecast_spot_pct": null,
+  "post_forecast_high": null,
+  "post_forecast_low": null,
+  "maximum_favorable_excursion_pct": null,
+  "maximum_adverse_excursion_pct": null,
+  "forecast_error": {
+    "central_estimate_absolute": null,
+    "central_estimate_pct": null,
+    "inside_50_range": null,
+    "inside_80_range": null,
+    "inside_95_range": null
+  },
+  "level_probability_results": [
+    {
+      "level": null,
+      "predicted_probability_close_at_or_above": null,
+      "actual_close_at_or_above": null
+    }
+  ],
+  "post_forecast_events": {
+    "unexpected_material_news": false,
+    "events": []
+  },
+  "diagnosis": {
+    "primary_error_type": null,
+    "secondary_error_types": [],
+    "notes": null
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "example_only": true,
+  "schema_version": "1.1",
+  "record_type": "intraday_checkpoint",
+  "ticker": "EXAMPLE",
+  "date_et": "2020-01-02",
+  "checkpoint": "1045",
+  "forecast_timestamp_et": "2020-01-02T10:45:00-05:00",
+  "market_session_state": "open",
+  "spot_price": null,
+  "observed_session": {
+    "previous_close": null,
+    "open": null,
+    "high_so_far": null,
+    "low_so_far": null,
+    "volume_so_far": null,
+    "vwap": null
+  },
+  "current_day_forecast": {
+    "target_date": "2020-01-02",
+    "close": {
+      "central_estimate": null,
+      "range_50": {
+        "low": null,
+        "high": null
+      },
+      "range_80": {
+        "low": null,
+        "high": null
+      },
+      "range_95": {
+        "low": null,
+        "high": null
+      },
+      "confidence": null
+    },
+    "high": {
+      "central_estimate": null,
+      "range_50": {
+        "low": null,
+        "high": null
+      },
+      "range_80": {
+        "low": null,
+        "high": null
+      },
+      "range_95": {
+        "low": null,
+        "high": null
+      },
+      "level_probabilities": [],
+      "confidence": null
+    },
+    "low": {
+      "central_estimate": null,
+      "range_50": {
+        "low": null,
+        "high": null
+      },
+      "range_80": {
+        "low": null,
+        "high": null
+      },
+      "range_95": {
+        "low": null,
+        "high": null
+      },
+      "level_probabilities": [],
+      "confidence": null
+    },
+    "probability_close_above_previous_close": null,
+    "probability_close_above_forecast_spot": null,
+    "direction_probability": {
+      "up": null,
+      "flat": null,
+      "down": null
+    },
+    "expected_remaining_day_volatility": null
+  },
+  "next_day_forecast": {
+    "target_date": "2020-01-03",
+    "close": {
+      "central_estimate": null,
+      "range_50": {
+        "low": null,
+        "high": null
+      },
+      "range_80": {
+        "low": null,
+        "high": null
+      },
+      "range_95": {
+        "low": null,
+        "high": null
+      },
+      "confidence": null
+    },
+    "high": {
+      "central_estimate": null,
+      "range_50": {
+        "low": null,
+        "high": null
+      },
+      "range_80": {
+        "low": null,
+        "high": null
+      },
+      "range_95": {
+        "low": null,
+        "high": null
+      },
+      "level_probabilities": [],
+      "confidence": null
+    },
+    "low": {
+      "central_estimate": null,
+      "range_50": {
+        "low": null,
+        "high": null
+      },
+      "range_80": {
+        "low": null,
+        "high": null
+      },
+      "range_95": {
+        "low": null,
+        "high": null
+      },
+      "level_probabilities": [],
+      "confidence": null
+    },
+    "direction_probability": {
+      "up": null,
+      "flat": null,
+      "down": null
+    },
+    "reference_assumptions": []
+  },
+  "revision_from_prior_checkpoint": {
+    "prior_checkpoint": null,
+    "current_day": {
+      "close_revision": null,
+      "high_revision": null,
+      "low_revision": null
+    },
+    "next_day": {
+      "close_revision": null,
+      "high_revision": null,
+      "low_revision": null
+    },
+    "reasons": []
+  },
+  "target_rationale": {
+    "current_day_close": [],
+    "current_day_high": [],
+    "current_day_low": [],
+    "next_day_close": [],
+    "next_day_high": [],
+    "next_day_low": []
+  },
+  "drivers": {
+    "bullish": [],
+    "bearish": [],
+    "neutral_or_conflicting": [],
+    "largest_uncertainties": []
+  },
+  "changes_since_prior_checkpoint": {
+    "price_action": [],
+    "market": [],
+    "company_news": [],
+    "sector_or_peers": [],
+    "macro_or_rates": [],
+    "volatility_or_options": [],
+    "scheduled_events": []
+  },
+  "parameters": {},
+  "parameter_completeness": {
+    "available_count": 0,
+    "missing_count": 0,
+    "missing_parameters": []
+  },
+  "source_summary": {
+    "sources_reviewed": 0,
+    "independent_news_items": 0,
+    "notes": null
+  },
+  "model": {
+    "provider": null,
+    "model_name": null,
+    "methodology_version": null
+  },
+  "frozen": true
+}

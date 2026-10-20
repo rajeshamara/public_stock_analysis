@@ -1,0 +1,80 @@
+{
+  "example_only": true,
+  "schema_version": "1.0",
+  "record_type": "daily_forecast",
+  "ticker": "EXAMPLE",
+  "trading_date": "2020-01-02",
+  "checkpoint": "premarket",
+  "forecast_timestamp_et": "2020-01-02T08:45:00-05:00",
+  "model": {
+    "provider": null,
+    "model_name": null,
+    "methodology_version": null
+  },
+  "price_state": {
+    "previous_close": null,
+    "current_or_premarket_price": null,
+    "today_open": null,
+    "today_high_so_far": null,
+    "today_low_so_far": null,
+    "vwap": null
+  },
+  "parameters": {},
+  "parameter_completeness": {
+    "available_count": 0,
+    "missing_count": 0,
+    "missing_parameters": []
+  },
+  "forecast": {
+    "central_close_estimate": null,
+    "close_range_50": {
+      "low": null,
+      "high": null
+    },
+    "close_range_80": {
+      "low": null,
+      "high": null
+    },
+    "close_range_95": {
+      "low": null,
+      "high": null
+    },
+    "expected_intraday_high_range": {
+      "low": null,
+      "high": null
+    },
+    "expected_intraday_low_range": {
+      "low": null,
+      "high": null
+    },
+    "direction_probability": {
+      "up": null,
+      "flat": null,
+      "down": null
+    },
+    "probability_close_above_previous_close": null,
+    "probability_close_above_open": null
+  },
+  "drivers": {
+    "bullish": [],
+    "bearish": [],
+    "neutral_or_noise": [],
+    "largest_uncertainties": []
+  },
+  "market_regime": {
+    "classification": null,
+    "news_regime": null,
+    "scheduled_event_risk": null
+  },
+  "source_summary": {
+    "sources_reviewed": 0,
+    "independent_news_items": 0,
+    "notes": null
+  },
+  "human_prior": {
+    "provided_before_model_forecast": false,
+    "central_close_estimate": null,
+    "notes": null
+  },
+  "frozen": true
+}

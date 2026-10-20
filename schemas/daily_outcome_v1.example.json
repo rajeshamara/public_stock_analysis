@@ -1,0 +1,53 @@
+{
+  "example_only": true,
+  "schema_version": "1.0",
+  "record_type": "daily_outcome",
+  "ticker": "EXAMPLE",
+  "trading_date": "2020-01-02",
+  "session": {
+    "open": null,
+    "high": null,
+    "low": null,
+    "close": null,
+    "volume": null,
+    "time_of_high_et": null,
+    "time_of_low_et": null,
+    "shortened_session": false
+  },
+  "benchmark_context": {
+    "spy_return_pct": null,
+    "qqq_return_pct": null,
+    "vix_change_pct": null
+  },
+  "forecast_evaluations": [
+    {
+      "checkpoint": "premarket",
+      "forecast_path": "stocks/EXAMPLE/daily/forecasts/2020/01/2020-01-02/premarket.json",
+      "central_close_absolute_error": null,
+      "central_close_error_pct": null,
+      "inside_50_range": null,
+      "inside_80_range": null,
+      "inside_95_range": null,
+      "direction_correct": null
+    },
+    {
+      "checkpoint": "1045",
+      "forecast_path": "stocks/EXAMPLE/daily/forecasts/2020/01/2020-01-02/1045.json",
+      "central_close_absolute_error": null,
+      "central_close_error_pct": null,
+      "inside_50_range": null,
+      "inside_80_range": null,
+      "inside_95_range": null,
+      "direction_correct": null
+    }
+  ],
+  "post_forecast_events": {
+    "unexpected_material_news": false,
+    "events": []
+  },
+  "diagnosis": {
+    "primary_error_type": null,
+    "secondary_error_types": [],
+    "notes": null
+  }
+}

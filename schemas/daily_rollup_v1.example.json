@@ -1,0 +1,126 @@
+{
+  "example_only": true,
+  "schema_version": "1.1",
+  "record_type": "daily_rollup",
+  "ticker": "EXAMPLE",
+  "date_et": "2020-01-02",
+  "actual_session": {
+    "open": null,
+    "high": null,
+    "low": null,
+    "close": null,
+    "volume": null,
+    "time_of_high_et": null,
+    "time_of_low_et": null
+  },
+  "checkpoints": [
+    {
+      "checkpoint": "0800",
+      "path": "stocks/EXAMPLE/daily/checkpoints/2020/01/2020-01-02/0800.json",
+      "predicted_current": {
+        "close": null,
+        "high": null,
+        "low": null
+      },
+      "predicted_next": {
+        "close": null,
+        "high": null,
+        "low": null
+      },
+      "current_day_errors": {
+        "close_absolute": null,
+        "high_absolute": null,
+        "low_absolute": null,
+        "close_pct": null,
+        "high_pct": null,
+        "low_pct": null
+      },
+      "current_day_interval_coverage": {
+        "close_50": null,
+        "close_80": null,
+        "close_95": null,
+        "high_50": null,
+        "high_80": null,
+        "high_95": null,
+        "low_50": null,
+        "low_80": null,
+        "low_95": null
+      }
+    }
+  ],
+  "checkpoint_comparison": {
+    "best_current_close_checkpoint": null,
+    "worst_current_close_checkpoint": null,
+    "best_current_high_checkpoint": null,
+    "worst_current_high_checkpoint": null,
+    "best_current_low_checkpoint": null,
+    "worst_current_low_checkpoint": null,
+    "largest_useful_revision": null,
+    "largest_harmful_revision": null
+  },
+  "prior_day_next_day_forecast_evaluation": {
+    "source_date": null,
+    "source_checkpoint": null,
+    "predicted_close": null,
+    "predicted_high": null,
+    "predicted_low": null,
+    "actual_close": null,
+    "actual_high": null,
+    "actual_low": null,
+    "close_absolute_error": null,
+    "high_absolute_error": null,
+    "low_absolute_error": null
+  },
+  "post_close_next_day_forecast": {
+    "checkpoint_path": null,
+    "target_date": null,
+    "close": {
+      "central_estimate": null,
+      "range_50": {
+        "low": null,
+        "high": null
+      },
+      "range_80": {
+        "low": null,
+        "high": null
+      },
+      "range_95": {
+        "low": null,
+        "high": null
+      }
+    },
+    "high": {
+      "central_estimate": null,
+      "range_50": {
+        "low": null,
+        "high": null
+      },
+      "range_80": {
+        "low": null,
+        "high": null
+      },
+      "range_95": {
+        "low": null,
+        "high": null
+      }
+    },
+    "low": {
+      "central_estimate": null,
+      "range_50": {
+        "low": null,
+        "high": null
+      },
+      "range_80": {
+        "low": null,
+        "high": null
+      },
+      "range_95": {
+        "low": null,
+        "high": null
+      }
+    }
+  },
+  "unexpected_events": [],
+  "research_flags": [],
+  "analysis_path": null
+}

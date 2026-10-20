@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.1",
+  "example_only": true,
+  "purpose": "Synthetic inactive configuration. Replace with your chosen research universe before use.",
+  "stocks": [
+    {
+      "ticker": "EXAMPLE",
+      "folder": "EXAMPLE",
+      "company": "Fictional example company",
+      "research_status": "inactive",
+      "trading_context": "research_only"
+    }
+  ]
+}
