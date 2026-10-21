@@ -1,6 +1,6 @@
 # Stock Analysis
 
-> **Public demo scope:** This repository is a curated public showcase of the privately maintained Stock Analysis research project. It includes selected methodology, templates, and synthetic examples to demonstrate the research workflow and engineering approach. Private research records, account data, credentials, and operational configuration are intentionally excluded. This repository is intended for portfolio review and demonstration, and is not a complete distribution of the private project.
+> **Public edition:** This repository contains selected methodology, templates, and synthetic examples for the Stock Analysis research framework. Private research records, account data, credentials, and operational configuration are excluded. It documents the research workflow and is not a complete application distribution.
 
 ## A versioned framework for forecast research
 
@@ -10,7 +10,7 @@ The project separates intraday price research, option-expiration price research,
 
 **This public edition contains research protocols, JSON record examples, and reusable agent instructions.** It does not include an application runtime, data-provider integration, scheduler, trained forecasting model, or brokerage connection. The examples contain fictional identifiers and unpopulated measurements. No historical performance or investment return is claimed.
 
-## What the project demonstrates
+## Framework capabilities
 
 | Design area | Implementation in this repository |
 |---|---|
@@ -100,7 +100,3 @@ Keep provider credentials in the facilities supported by your chosen runtime, ou
 The framework specifies how research should be recorded and evaluated. Data acquisition, market-calendar handling, interval estimation, numerical scoring, scheduling, and schema validation require a separately implemented runtime or a carefully supervised manual workflow. Potential next steps include formal JSON Schemas, an offline evaluator, simple baseline comparisons, and reproducible walk-forward reports.
 
 The research is allowed to conclude that a hypothesis has no durable predictive value. Forecast quality must be measured from suitable data; the design of the workflow alone does not establish accuracy or profitability.
-
-## Author
-
-[Rajesh Amara](https://github.com/rajeshamara)

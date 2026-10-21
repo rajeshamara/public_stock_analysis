@@ -1,6 +1,6 @@
 # Templates
 
-> **Public demo scope:** This repository is a curated public showcase of the privately maintained Stock Analysis research project. It includes selected methodology, templates, and synthetic examples to demonstrate the research workflow and engineering approach. Private research records, account data, credentials, and operational configuration are intentionally excluded. This repository is intended for portfolio review and demonstration, and is not a complete distribution of the private project.
+> **Public edition:** This repository contains selected methodology, templates, and synthetic examples for the Stock Analysis research framework. Private research records, account data, credentials, and operational configuration are excluded. It documents the research workflow and is not a complete application distribution.
 
 This folder contains reusable templates consumed by scheduled and interactive research agents.
 
